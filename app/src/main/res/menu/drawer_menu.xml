@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" android:id="@+id/group_1">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"></item>
+        <item android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Dashboard"></item>
+        <item android:id="@+id/nav_package"
+            android:icon="@drawable/ic_layers_black_24dp"
+            android:title="Package"></item>
+        <item android:id="@+id/nav_hotel"
+            android:icon="@drawable/ic_hotel_black_24dp"
+            android:title="Hotel"></item>
+        <item android:id="@+id/nav_transport"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="Transport"></item>
+        <item android:id="@+id/nav_passport"
+            android:icon="@drawable/ic_assignment_ind_black_24dp"
+            android:title="Passport"></item>
+        <item android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="History"></item>
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/group_2">
+        <item android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings"></item>
+        <item android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="About us"></item>
+    </group>
+    <item android:title="Extra">
+        <menu>
+            <item
+                android:id="@+id/nav_gift_voucher"
+                android:icon="@drawable/ic_card_giftcard_black_24dp"
+                android:title="Gift voucher" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AppIntroActivity"
+    android:layout_margin="16dp"
+    android:elevation="6dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/post_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true">
+        </ImageView>
+        <TextView
+            android:id="@+id/post_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginTop="16dp"
+            android:text="gjd mnbjhdjb md jhbjhdb   djvhjb dhjgdb  jhbvjhdb ">
+
+        </TextView>
+        <TextView
+            android:id="@+id/post_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:layout_marginTop="18dp"
+            android:text="gjd mnbjhdjb md jhbjhddmhbb d kgdhkjndh ihdiuh iud hihdih dhh d uhdih ihidhihdiuhiudhiuhduhiudhidh shdsd b   djvhjb dhjgdb  jhbvjhdb ">
+
+        </TextView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
